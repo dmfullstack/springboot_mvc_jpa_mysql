@@ -41,6 +41,10 @@ dependencies {
 
     runtime("mysql:mysql-connector-java")
     testCompile("org.springframework.boot:spring-boot-starter-test")
+
+    // Websocket
+    compile("org.springframework.boot:spring-boot-starter-websocket")
+    compile("org.springframework:spring-messaging")
 }
 
 eclipse {
